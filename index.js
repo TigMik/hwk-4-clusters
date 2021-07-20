@@ -4,7 +4,7 @@ const process = require('process');
 
 if (cluster.isMaster) {
 
-    // Keep track of http requests
+    
     let sum = 0;
     setInterval(() => {
         console.log(`sum = ${sum}`);
